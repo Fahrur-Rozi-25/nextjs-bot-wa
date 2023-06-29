@@ -5,7 +5,7 @@
   "main": "openwa.js",
   "scripts": {
     "dev": "node app/openwa.js",
-    "build": "node app/openwa.js",
+    "build": "next build",
     "start": "node app/openwa.js",
     "lint": "next lint"
   },
