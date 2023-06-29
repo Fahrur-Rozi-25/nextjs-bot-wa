@@ -2,10 +2,11 @@
   "name": "nextjs-bot-wa",
   "version": "0.1.0",
   "private": true,
+  "main": "openwa.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node app/openwa.js",
+    "build": "node app/openwa.js",
+    "start": "node app/openwa.js",
     "lint": "next lint"
   },
   "dependencies": {
